@@ -1,0 +1,315 @@
+/* fuentes import */
+/* reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+/* header index */
+body header.encabezado {
+
+    background-color: #daa1a1;
+    margin: 0px 0px 16px;
+    color: #df9a9a;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+body  header.encabezado div.container-fluid a img {
+    height: 20vh;
+}
+
+.onix header.encabezado div.container-fluid a img {
+    height: 20vh;
+}
+
+body header.encabezado nav.contiene-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+body header.encabezado nav.contiene-header div.navegacion {
+    justify-content: flex-end;
+
+}
+
+body  header.encabezado nav.contiene-header div.navegacion ul.navbar-nav {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 6px 10px 0px;
+
+}
+
+
+
+/* Fin header */
+
+/* onix header */
+
+
+/* Main index */
+
+
+body.index {
+
+    background-image: url("../recursos/IMG_4765.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+body.index main.inicio {
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main.inicio div {
+    padding: 3rem;
+    color: rgb(37, 30, 30);
+
+}
+
+main.inicio div p {
+
+    background-color: #14a1ffbc;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+
+main.inicio div h2 {
+
+    background-color: #14a1ffbc;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 10px;
+
+}
+
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+      background-color: #ffffffaf;
+  }
+  
+  input,
+  label {
+    padding: 20px;
+    background-color: #ffffffd5;
+  }
+  
+/* Main onix */
+body.onix {
+
+    background-image: url("../recursos/IMG_4765.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body.onix header.encabezado {
+
+    background-color: #daa1a1;
+    margin: 0px 0px 16px;
+    color: #df9a9a;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+body.onix main.inicio {
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main.inicio div {
+    padding: 3rem;
+    color: rgb(37, 30, 30);
+
+}
+
+main.inicio div p {
+
+    background-color: #14a1ffbc;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+
+main.inicio div h2 {
+
+    background-color: #14a1ffbc;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 10px;
+
+}
+/* main onix */
+
+.imagen-grande {
+    grid-area: imagen-grande;
+    background-image: url('../recursos/6104d364-3a90-4c99-b813-3a6a4eaf20f4.JPG');
+    background-size: cover;
+    color: rgb(43, 41, 41);
+}
+
+.img-1 {
+    grid-area: img-1;
+    background-image: url('../recursos/a442669d-c219-4bb0-a08e-14eb81a06a4b.JPG');
+    background-size: cover;
+    color: white;
+}
+
+.img-2 {
+    grid-area: img-2;
+    background-image: url('../recursos/Captura\ de\ pantalla\ 2024-02-26\ 175634.png');
+    background-size: cover;
+    color: white;
+}
+
+.img-3 {
+    grid-area: img-3;
+    background-image: url('../recursos/patio.png');
+    background-size: cover;
+    color: white;
+
+}
+.seccion1-onix {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(0, 400px);
+    grid-template-areas:
+        "imagen-grande"
+        "img-1"
+        "img-2"
+        "img-3"
+        
+    ;
+    max-width: 960px; 
+    margin: auto;
+}
+.seccion1-onix .imagen-grande img {
+    width: 300px;
+}
+
+.seccion1-onix h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 10);
+}
+
+.seccion1-onix img {
+    height: 175px;
+}
+
+article {
+    border: 1px solid black;
+    margin: 33px;
+    padding: 218px;
+    background-color: #ffffef;
+}
+
+
+  
+/* footer */
+
+.footer {
+    width: 100%;
+    max-height: 9vh;
+    min-height: 8vh;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(49, 157, 228, 0.37);
+}
+
+.onix div.footer-onix {
+    width: 100%;
+    max-height: 9vh;
+    min-height: 8vh;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(49, 157, 228, 0.37);
+}
+
+
+
+/*RESPONSIVE MEDIA QUERY*/
+
+@media (max-width: 676px) {
+
+    body.index main.inicio div {
+      padding: 0; }
+    main.inicio div p {
+        
+        font-size: 1rem;
+        padding: 10px; 
+    }
+      body.index main.inicio div h2 {
+        background-color: #14a1ffbc;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 10px; 
+    
+          
+    }
+   
+}
+    
+@media (min-width: 677px) and (max-width: 767px) {
+    
+    body.index main.inicio div {
+      padding: 0; }
+      body.index main.inicio div p {
+        text-align: center;
+        margin: 0; }
+      body.index main.inicio div h2 {
+        font-size: 4rem; }
+
+        .seccion1-onix {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(1, 200px);
+            grid-template-areas:
+                "imagen-grande imagen-grande img-1 img-2"
+                "imagen-grande imagen-grande img-3 img-4";
+        }
+     }
+ 
+    
+    
