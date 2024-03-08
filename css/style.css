@@ -373,6 +373,8 @@ footer {
       font-size: 16px; }
 
 @media (max-width: 1200px) {
+  .img-responsive {
+    max-width: 150%; }
   /* about */
   .about-us .row > .col-lg-6:first-of-type {
     left: -10px; }
@@ -412,6 +414,8 @@ footer {
     display: none; } }
 
 @media (max-width: 992px) {
+  .img-responsive {
+    max-width: 150%; }
   /* header */
   header h1 {
     font-size: 65px !important; }

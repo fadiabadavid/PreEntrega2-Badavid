@@ -105,6 +105,7 @@ p {
 
 .img-responsive {
     max-width: 100%;
+   
 }
 
 .white_font {
@@ -502,6 +503,10 @@ footer {
 
 @media (max-width: 1200px) {
     
+    // imagen-responsive
+    .img-responsive {
+        max-width: 150%;
+    }
     /* about */
     
     .about-us .row > .col-lg-6:first-of-type {
@@ -562,7 +567,10 @@ footer {
 }
 
 @media (max-width: 992px) {
-    
+        // imagen-responsive
+        .img-responsive {
+            max-width: 150%;
+        }
     /* header */
     
     header h1 {
