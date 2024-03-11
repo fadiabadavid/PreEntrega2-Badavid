@@ -3,83 +3,7 @@
 @import './sections/index';
 
 
-/* statistics */
 
-.statistics {
-    padding: 50px 0;
-    font-family: sans-serif;
-}
-
-.statistics i, .statistics p {
-    color: #bd8cbf;
-}
-
-.statistics i {
-    margin-bottom: 10px;
-}
-
-.statistics h3 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-h2 span,
-h1 span {
-    color: #bd8cbf;
-}
-
-li {
-    list-style-type: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a,
-button {
-    transition: all .5s ease;
-}
-
-button {
-    padding: 0
-}
-
-.layout_padding {
-    padding: 90px 0;
-}
-
-p {
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.full {
-    width: 100%;
-    float: left;
-    margin: 0;
-}
-
-.text_align_center {
-    text-align: center;
-}
-
-.img-responsive {
-    max-width: 100%;
-   
-}
-
-.white_font {
-    color: #fff !important;
-}
-
-.h3,
-h3 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #3a3a3a;
-    text-transform: uppercase;
-}
 
 body {
     font-size: 1.1rem;
@@ -771,14 +695,14 @@ footer .item h4 {
     height: 45px;
     border: none;
 }
-
+// media query img responsive
 @media (min-width: 992px) and (max-width: 1199px) {
     .img-responsive {
         max-width: 100%;
     }
     
 }
-
+// media query index-header
 @media (min-width: 768px) and (max-width: 991px) {
 
 .ovarlay_slide_cont {
@@ -876,6 +800,7 @@ h3.blog_head {
 
 }
 
+// media query body
 @media (max-width: 767px) {
 
 .layout_padding {
