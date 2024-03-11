@@ -1,46 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-// overlay_slide
-.ovarlay_slide_cont {
-    background: rgba(5,3,0,0.63);
-    position: absolute;
-    width: 60%;
-    margin: 0 15%;
-    z-index: 1111111111;
-    top: 135px;
-    left: 0;
-    padding: 50px 60px 70px;
-}
+@import './sections/index';
 
-.ovarlay_slide_cont h1 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-}
-
-.ovarlay_slide_cont h4 {
-    color: #4fcaff;
-    font-size: 32px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 0 0 15px 0;
-    line-height: normal;
-}
-
-.ovarlay_slide_cont p {
-    color: #fff;
-    font-weight: 300;
-    margin: 0 0 30px 0;
-    font-size: 21px;
-    padding: 0 75px 0 0;
-    line-height: 28px;
-}
 
 /* statistics */
 
