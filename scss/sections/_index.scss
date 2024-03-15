@@ -5,6 +5,34 @@
 body {
     font-size: 1.1rem;
 }
+
+.texto-pequenio{
+    background: rgba(5,3,0,0.63);
+    position: absolute;
+    width: 60%;
+    margin: 0 15%;
+    z-index: 1111111111;
+    top: 10px;
+    left: 0;
+    
+    h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+    }
+
+    h4 {
+        color: #4fcaff;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0 0 15px 0;
+        line-height: normal;
+    }
+}
 // overlay_slide
 .ovarlay_slide_cont {
     background: rgba(5,3,0,0.63);
@@ -15,6 +43,7 @@ body {
     top: 135px;
     left: 0;
     padding: 50px 60px 70px;
+ 
 }
 
 .ovarlay_slide_cont h1 {
