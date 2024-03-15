@@ -1,0 +1,143 @@
+
+
+.service_blog {
+
+    h3.blog_head::after {
+        width: 50px;
+        height: 50px;
+        content: "";
+        display: block;
+        position: absolute;
+        right: -20px;
+        background: #4fcaff;
+        top: 0;
+        transform: skew(-30deg);
+    }
+
+    .service_blog h3.blog_head::after {
+        width: 50px;
+        height: 50px;
+        content: "";
+        display: block;
+        position: absolute;
+        right: -20px;
+        background: #4fcaff;
+        top: 0;
+        transform: skew(-30deg);
+    }
+}
+
+@media (max-width: 992px) {
+    // imagen-responsive
+    .img-responsive {
+        max-width: 150%;
+    }
+
+/* services */
+
+.services .slide {
+    width: 80%
+}
+
+.services .carousel-control-next, .services .carousel-control-prev {
+    width: 50px;
+    height: 50px;
+}
+}
+
+@media (max-width: 768px) {
+    
+   
+    
+ 
+    /* services */
+    
+    .services .slide {
+        width: 90%
+    }
+    .services .carousel-control-next, .services .carousel-control-prev {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .service_blog h3.blog_head {
+        float: left;
+        background: #4fcaff;
+        text-align: center;
+        font-size: 18px;
+        text-transform: none;
+        margin: 0;
+        min-height: 50px;
+        line-height: 50px;
+        padding: 0 20px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 65%;
+        max-width: 300px;
+        left: 15px;
+        font-weight: 500;
+    }
+    
+    .service_blog h3.blog_head::after {
+        width: 50px;
+        height: 50px;
+        content: "";
+        display: block;
+        position: absolute;
+        right: -35px;
+        background: #4fcaff;
+        top: 0;
+        transform: skew(-30deg);
+    }
+
+    .service_blog img {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    .layout_padding {
+        padding: 50px 0;
+    }
+    
+    
+    .service_blog h3.blog_head {
+        float: left;
+        background: #4fcaff;
+        text-align: center;
+        font-size: 22px;
+        text-transform: none;
+        margin: 0;
+        min-height: 50px;
+        line-height: 50px;
+        padding: 0 40px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 70%;
+        max-width: 300px;
+        left: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .layout_padding {
+        padding: 50px 0;
+    }
+  
+    .ovarlay_slide_cont {
+        display: none;
+    }
+    
+    .service_blog img {
+        width: 100%;
+    }
+    
+    }

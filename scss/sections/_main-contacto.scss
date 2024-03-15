@@ -1,0 +1,127 @@
+
+
+// contactanos
+.contact-form {
+    padding: 55px 65px;
+    background: #4fcaff;
+    min-height: 600px;
+    margin-top: 60px;
+
+    form input {
+        width: 100%;
+        background: #fff;
+        border: none;
+        height: 60px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+
+    form textarea {
+        width: 100%;
+        background: #fff;
+        border: none;
+        min-height: 120px;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+
+    form input[type="submit"] {
+        background: #fa3e19;
+        color: #fff;
+        width: 190px;
+        margin: 15px auto 0;
+        font-size: 19px;
+        font-weight: 300;
+        float: none;
+        display: flex;
+        cursor: pointer;
+    }
+
+    form input[type="submit"]:hover,
+    form input[type="submit"]:focus {
+        background: #111;
+        color: #fff;
+        transition: ease all 0.5s;
+    }
+}
+
+h3.blog_head {
+    width: 100%;
+    float: left;
+    background: #fff;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #090101;
+    margin: 0;
+    min-height: 75px;
+    line-height: 75px;
+}
+
+.blue_bt {
+    width: 255px;
+    height: 58px;
+    background: #4fcaff;
+    color: #fff;
+    float: left;
+    text-align: center;
+    line-height: 58px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.blue_bt:hover,
+.blue_bt:focus {
+    background: #fff;
+    color: #0c2326;
+}
+
+
+@media (max-width: 992px) {
+    // imagen-responsive
+    .img-responsive {
+        max-width: 150%;
+    }
+.contact .contact-form {
+    width: 70%
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .contact-form {
+        padding: 40px 50px;
+        background: #4fcaff;
+        min-height: 600px;
+        margin-top: 60px;
+    }
+    
+    
+    }
+
+    @media (max-width: 767px) {
+
+        .layout_padding {
+            padding: 50px 0;
+        }
+        
+        
+        
+        .contact-form {
+            padding: 35px 40px;
+            background: #4fcaff;
+            min-height: 600px;
+            margin-top: 20px;
+        }
+        
+        .contact-form form input {
+            margin: 10px 0;
+        }
+        
+        #contact img {
+            margin-top: 30px;
+        }
+    }
